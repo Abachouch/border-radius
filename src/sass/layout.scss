@@ -1,0 +1,26 @@
+.container {
+    //display: flex ;
+    max-width: 900px ;
+    margin: 0 auto ;
+}
+.row{
+    display: flex ;
+    flex-direction: row-reverse;
+    justify-content: space-around ;
+    margin: 80px 0 50px ;
+}
+.widget-col{
+    
+}
+.header{
+
+}
+
+@media screen and (max-width : 700px){
+    .row{
+        flex-direction: column ;
+        max-width: 400px ;
+        margin: 0 auto;
+    }
+    
+}

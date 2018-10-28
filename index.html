@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test bulb</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+
+        
+        <div class="header">
+            <h1 class="app-title">Border Radius Shaping Tool</h1>
+            <p class="app-description">Create Simple shapes using only css3:border-radius</p>
+
+            <div id="simpleContainer">
+                <span  id="tabShape" class="simple-tab active">shapes</span>
+                <span  id="tabColor" class="simple-tab">colors</span>
+                <div id="simplesBody">
+                </div>
+            </div>
+
+        </div>
+        <div class="widget-col">
+            <h2 class="widget-header" >Drag anchors to draw </h2>
+            <div id="widget" class="widget">
+                <div class="widget-body">
+                    <div id="bubbleWraper" class="bubble-wraper">
+
+                    
+
+                    <div id="bubble" class="bubble"></div>
+                    <div class="h-drag control" id="top"></div>
+                    <div class="v-drag control" id="right"></div>
+                    <div class="h-drag control" id="bottom"></div>
+                    <div class="v-drag control" id="left"></div>
+                </div>
+</div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    
+    <div class="css-wraper">
+        <code id="css">
+            <span class="css-property">border-radius : </span>
+            <span id="brValue" class="css-value">69% 31% 61% 39% / 29% 95% 5% 71%</span>
+            <br>
+            <span class="css-property">background-color : </span>
+            <span id="bgValue" class="css-value">black</span>
+        </code>
+        <button class="css-copy" id="copyBtn">Copy</button>
+    </div>
+
+</div>
+</body>
+
+<script src="dist/app.bundle.js"></script>
+
+
+<script>
+
+
+</script>
+
+</html>

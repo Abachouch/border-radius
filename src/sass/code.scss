@@ -1,0 +1,83 @@
+.css-wraper {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-family: Nunito;
+    display: flex;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.css {
+    &-property {
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-size: 15px;
+
+        color: #181818;
+    }
+
+    &-value {
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 15px;
+
+        color: #000000;
+
+    }
+
+    &-copy {
+
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 14px;
+        color: #000000;
+        margin: 0 10px;
+        border: 0;
+        padding: 0;
+        background: none;
+
+    }
+
+}
+
+.message {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    //background-color: rgba(255, 255, 255, 0.137);
+    
+    padding: 20px;
+    text-align: center ;
+
+    &-text {
+        text-align: center;
+        display: inline-block;
+margin-top: 150px ;
+
+    font-family: Nunito;
+    color: #181818;
+
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media screen and (max-width : 700px){
+    .css-wraper {
+        margin-top: 50px ;
+        max-width: 450px ;
+
+    }
+
+
+}
