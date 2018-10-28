@@ -158,24 +158,7 @@ module.exports = {
     topControl: document.getElementById('top'),
     rightControl: document.getElementById('right'),
     bottomControl: document.getElementById('bottom'),
-    leftControl: document.getElementById('left'),
+    leftControl: document.getElementById('left'), 
     bubble: document.getElementById('bubble'),
-drawBubble: function () {
-        const cssCode = this.getBorderRadisCSS(this.brad);
-        bubble.style.borderRadius = cssCode;
 
-        document.getElementById('brValue').innerHTML = cssCode + ';';
-    },
-    getBorderRadisCSS : function(brad) {
-        return brad.t + '%' +
-            ' ' + (100 - brad.t) + '%' +
-            ' ' + (100 - brad.b) + '%' +
-            ' ' + brad.b + '% / ' +
-            ' ' + brad.l + '%' +
-            ' ' + brad.r + '%' +
-            ' ' + (100 - brad.r) + '%' +
-            ' ' + (100 - brad.l) + '%';
-    },
-
-    
 }

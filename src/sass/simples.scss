@@ -73,6 +73,7 @@
         height: 40px;
         margin: 0 auto;
         background: #C4C4C4;
+        cursor: pointer;
     }
 
     &-title {
@@ -91,17 +92,17 @@
 
 
 .color {
-    transition: border 200ms ease-in;
+    transition: all 400ms ease-in;
 
     &:hover {
-        border: 5px solid transparent;
+        //border: 5px solid transparent;
     }
 }
 
 @media screen and (max-width : 700px){
     #simpleContainer {
         margin-top: 20px ;
-        width: 100%;
+        width: 100%; 
         max-width: 100%;
     }
 
