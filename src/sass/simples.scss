@@ -93,10 +93,6 @@
 
 .color {
     transition: all 400ms ease-in;
-
-    &:hover {
-        //border: 5px solid transparent;
-    }
 }
 
 @media screen and (max-width : 700px){
@@ -116,9 +112,5 @@
                 height: 300px ;
             }
     }
-    .simple{
-        &-tab{
-            
-        }
-    }
+
 }

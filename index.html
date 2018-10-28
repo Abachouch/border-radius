@@ -13,7 +13,7 @@
     
         <meta name="Description" content="Abachouch Youssouf is a Talented Front-End Web Developper and Ui/Ux Designer From Morroco . ,
         nationality : Morroco ">
-        <link rel="canonical" href="https://github.com/Abachouch/border-radius">
+        <link rel="canonical" href="https://github.com/Abachouch/border-radius/">
         <link rel="icon" href="static/favicon.png" type="image/png">
         
         <!-- Add to home screen for Safari on iOS -->
@@ -23,10 +23,6 @@
         <link rel="apple-touch-icon" href="static/favicon.png">
     
     
-        <meta name="msapplication-TileImage" content="static/favicon.png">
-        <meta name="msapplication-TileColor" content="#2c2c2c">
-        <meta name="msapplication-config" content="IEconfig.xml" />
-
 
     <title>Border Radius</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
@@ -96,8 +92,8 @@
 <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('./service-worker.js')
-            .then(function () { console.log('Service Worker Registered'); });
+            .register('/border-radius/service-worker.js' ,  {scope: '/border-radius/'})
+            
     }
 </script>
 

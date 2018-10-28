@@ -1,9 +1,9 @@
 var cacheName = 'BorderRadius';
 var filesToCache = [
-    '/',
-    'index.html',
-    'dist/app.bundle.js',
-    'static/favicon.png'
+    '/border-radius/',
+    '/border-radius/index.html',
+    '/border-radius/dist/app.bundle.js',
+    '/border-radius/static/favicon.png'
 ];
 
 self.addEventListener('install', function (e) {
