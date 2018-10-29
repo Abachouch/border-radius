@@ -3,51 +3,49 @@
 
 <head>
 
+    <meta name="theme-color" content="#2c2c2c" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="manifest.json">
 
-
-        <meta name="theme-color" content="#2c2c2c"/>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="manifest" href="manifest.json">
-    
-        <meta name="Description" content="Abachouch Youssouf is a Talented Front-End Web Developper and Ui/Ux Designer From Morroco . ,
+    <meta name="Description" content="Abachouch Youssouf is a Talented Front-End Web Developper and Ui/Ux Designer From Morroco . ,
         nationality : Morroco ">
-        <link rel="canonical" href="https://abachouch.github.io/border-radius/">
-        <link rel="icon" href="static/favicon.png" type="image/png">
-        
-        <!-- Add to home screen for Safari on iOS -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="Iam Abachouch Youssouf">
-        <link rel="apple-touch-icon" href="static/favicon.png">
-    
-    
+    <link rel="canonical" href="https://abachouch.github.io/border-radius/">
+    <link rel="icon" href="static/favicon.png" type="image/png">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Iam Abachouch Youssouf">
+    <link rel="apple-touch-icon" href="static/favicon.png">
+
+
 
     <title>Border Radius</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="dark">
     <div class="container">
 
         <div class="row">
 
 
             <div class="header col-half">
-                <h1 class="app-title">Border Radius Shaping Tool</h1>
-                <p class="app-description">Create Simple shapes using only css3:border-radius</p>
+                <h1 class="app-title text">Border Radius Shaping Tool</h1>
+                <p class="app-description text">Create Simple shapes using only css3:border-radius</p>
 
                 <div id="simpleContainer" data-tab="null">
-                    <span id="tabShape" class="simple-tab active">shapes</span>
-                    <span id="tabColor" class="simple-tab">colors</span>
+                    <span id="tabShape" class="simple-tab text active">shapes</span>
+                    <span id="tabColor" class="simple-tab text">colors</span>
                     <div id="simplesBody" class="hide">
                     </div>
                 </div>
 
             </div>
             <div class="widget-col col-half">
-                <h2 class="widget-header">Drag anchors to draw </h2>
+                <h2 class="widget-header text">Drag anchors to draw </h2>
                 <div id="widget" class="widget">
                     <div id="widgetBody" class="widget-body">
                         <div id="bubbleWraper" class="bubble-wraper">
@@ -74,11 +72,17 @@
         <div class="row">
             <div class="css-wraper col">
                 <code id="css">
-                    <span class="css-property">border-radius : </span>
-                    <span id="brValue" class="css-value">69% 31% 61% 39% / 29% 95% 5% 71%</span>
-                    <br>
-                    <span class="css-property">background-color : </span>
-                    <span id="bgValue" class="css-value">black</span>
+                    <div class="css-line">
+                        <span class="css-property">border-radius : </span>
+                        <span id="brValue" class="css-value">69% 31% 61% 39% / 29% 95% 5% 71%</span>
+                    </div>
+
+                    <div class="css-line">
+                        <span class="css-property">background-color : </span>
+                        <span id="bgValue" class="css-value">black</span>
+
+                    </div>
+
                 </code>
                 <button class="css-copy" id="copyBtn">Copy</button>
             </div>
@@ -86,6 +90,26 @@
 
 
     </div>
+
+
+    <div id="settings" class="settings active">
+
+        <div class="settings-icon-wraper"><svg id="settingsIcon" class="settings-icon" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20">
+                <path fill="none" d="M0 0h20v20H0V0z" />
+                <path id="icon" d="M15.95 10.78a6.53 6.53 0 0 0-.01-1.56l1.69-1.32a.41.41 0 0 0 .1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8a5.86 5.86 0 0 0-1.35-.78L12 2.34a.4.4 0 0 0-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8a.4.4 0 0 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32a5.03 5.03 0 0 0-.01 1.56L2.37 12.1a.41.41 0 0 0-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8a.4.4 0 0 0 .49-.18l1.6-2.77a.39.39 0 0 0-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z" /></svg></div>
+        <ul class="settings-list">
+            <li> <span class="settings-text text">night light</span> <span class="setting-control">
+                    <div id="nightSwitch" class="switch checked">
+                        <div id="thumb" class="thumb"></div>
+                    </div>
+                </span> </li>
+            <li> <span class="settings-text text">about</span></li>
+        </ul>
+    </div>
+
+
+
 </body>
 
 <script src="dist/app.bundle.js"> </script>
@@ -93,7 +117,7 @@
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
             .register('/border-radius/service-worker.js' ,  {scope: '/border-radius/'})
-            
+
     }
 </script>
 

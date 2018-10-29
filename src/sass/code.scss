@@ -10,12 +10,16 @@
         //margin: 40px auto 20px;
         margin-top: 20px ;
     };
+    &-line{
+        padding: 5px 0 ;
+        display: flex ;
+    }
     &-property {
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         font-size: 15px;
-
+flex-shrink: 0 ;
         color: #181818;
     }
 
@@ -37,7 +41,7 @@
         line-height: normal;
         font-size: 14px;
         color: #000000;
-        margin: 0 10px;
+        margin: 0 30px;
         border: 0;
         padding: 0;
         background: none;

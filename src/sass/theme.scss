@@ -1,0 +1,72 @@
+.dark{
+    background-color: #1A1A1A ;
+    .text{
+        color: #fff !important;
+    }
+    .alt-text{
+        color: #A7A7A7 !important ;
+    }
+    .popup{
+        background-color: rgb(49, 49, 49) !important;
+    } 
+    #simplesBody{
+        background :rgba(241, 241, 241, 0.11) !important ;
+    }
+    .css-wraper{
+        background: #fff !important; 
+    }
+    .settings-icon{
+        #icon{
+            fill: rgb(224, 224, 224) ;
+        }
+        
+    }
+    .settings-text{
+        color: #ffffff ;
+    }
+    .simple-title{
+        color: #A7A7A7 !important ;
+    }
+    .settings.active{
+        background-color: rgb(22, 22, 22);
+    }
+}
+.light{
+    background-color: #fafafa !important;
+    .text{
+        color: #03061f !important;
+    }
+    .alt-text{
+        color: #3d3d3d !important ;
+    }
+    .popup{
+        background-color: rgb(255, 255, 255) !important;
+    }
+    #simplesBody{
+        background :rgba(232, 232, 232, 0.502) !important ;
+    }
+    .css-wraper{
+        background:#e6e6e6 !important ;
+    }
+    .settings-icon{ 
+        #icon{
+            fill: #A7A7A7 ;
+        }
+        
+    }
+    .simple-title{
+        color: rgb(54, 54, 54) !important ;
+    }
+    .settings-text{
+        color: #03061f ;
+    }
+    .settings.active{
+        background-color: rgb(238, 238, 238);
+    }
+    .css-property{
+color: darkcyan ;
+    }
+    .css-value{
+        color: rgb(0, 77, 47) ;
+    }
+}

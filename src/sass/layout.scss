@@ -1,13 +1,4 @@
-.themeContainer{
-    position: absolute;
-    top: 20px ;
-    right: 20px ;
-    .night{
-        
-    }
-}
 .container {
-    
     max-width: 900px ;
     margin: 0 auto ;
 }
@@ -37,8 +28,6 @@
 @media screen and (max-width : 700px){
     .row{
         flex-direction: column ;
-        
-
     }
     .col-half{
         width: 100%;
@@ -47,5 +36,4 @@
         max-width: 420px ;
         margin: 0 auto;
     }
-    
 }
